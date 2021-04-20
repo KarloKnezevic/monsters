@@ -20,7 +20,7 @@ class App extends Component {
           <p>
             {this.state.string}
           </p>
-          <button>Change Text</button>
+          <button onClick = {() => this.setState({string: "Pozdrav Algebra :)"})}>Change Text</button>
         </header>
       </div>
     );
